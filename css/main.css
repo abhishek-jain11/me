@@ -469,6 +469,19 @@ th:last-child, td:last-child {
     -webkit-overflow-scrolling: touch;
 }
 
+.card {
+border: 2px solid black;
+background:#ebebeb;
+padding:40px;
+margin:40px;
+opacity: .75;
+}
+
+.card-heading{
+    text-align:center;
+    text-decoration:underline;
+    margin-top:0
+}
 
 /* ------------------------------------------------------------------- 
  * ## Spacing - (_document-setup.scss)  
@@ -476,7 +489,7 @@ th:last-child, td:last-child {
 
 button, .btn {
     margin-bottom: 1.2rem;
-}
+} 
 
 fieldset {
     margin-bottom: 1.5rem;
@@ -1105,7 +1118,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .skill-bars {
     list-style: none;
-    margin: 6rem 0 3rem;
+    margin: 2rem 0 3rem;
 }
 
 .skill-bars li {
@@ -1294,7 +1307,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: inline-block;
     height: 1px;
     width: 240px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color:#862121;/* rgba(0, 0, 0, 0.1);*/
+    text-align: center;
+}
+
+.section-intro.has-bottom-sep2::after {
+    display: inline-block;
+    height: 1px;
+    width: 240px;
+    background-color:#ebebeb;/* rgba(0, 0, 0, 0.1);*/
     text-align: center;
 }
 
@@ -2209,6 +2230,11 @@ html.no-csstransitions .home-content__main {
     margin-bottom: 3rem;
 }
 
+.skills-content{
+    padding:40px;
+    position: relative;
+}
+
 .about-content .left {
     padding-right: 40px;
 }
@@ -2220,8 +2246,10 @@ html.no-csstransitions .home-content__main {
 .s-skills {
     padding-top: 5rem;
     padding-bottom: 9rem;
-    background-color: #FFFFFF;
+    background-color: #0D0A0B;
+    background-image:url("../images/testimonial-bg.jpg");
     position: relative;
+    
 }
 
 .s-workexp {
@@ -2791,6 +2819,16 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-testimonials .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .85;
+    background-color: #0D0A0B;
+}
+
+.s-skills .overlay {
     position: absolute;
     top: 0;
     left: 0;
