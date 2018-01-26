@@ -471,10 +471,15 @@ th:last-child, td:last-child {
 
 .card {
 border: 2px solid black;
-background:#ebebeb;
-padding:40px;
+background:#FFFFFF;
+padding:20px;
 margin:40px;
-opacity: .75;
+opacity: .85;
+}
+
+.thumbnail{
+    border: lightgray 1px solid;
+    padding: 20px;
 }
 
 .card-heading{
@@ -2240,7 +2245,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-content .right {
-    padding-left: 40px;
+  /*  padding-left: 40px;*/
 }
 
 .s-skills {
