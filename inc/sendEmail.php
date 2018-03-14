@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'user@website.com';
+$siteOwnersEmail = 'https://mailthis.to/jain136@usc.edu';
 
 
 if($_POST) {
